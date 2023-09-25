@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semantic HTML5</title>
+  <link href="css/semantic.css" rel="stylesheet">
+</head>
+<body>
+<!-- main heading of page - only use h1 once per page -->
+  <header>
+      <h1>Proper use of html5 semantic markup</h1>
+  </header>
+
+<!-- main navigation links to relative internal links only (once per page) -->
+  <nav>
+    <h2 class="sr-only">main navigation</h2>
+      <ul>
+          <li><a href="#latin-dummy">LINK 1</a></li>
+          <li><a href="#">LINK 2</a></li>
+          <li><a href="#">LINK 3</a></li>
+      </ul>
+  </nav>
+
+  <!-- main content of the page -->
+  <main>
+    <!-- grouping content together -->
+    <section id="latin-dummy">
+      <h2>latin "dummy" text</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure expedita porro adipisci autem provident placeat, mollitia repudiandae possimus, cum ab maxime voluptatum, ex iste, incidunt nihil molestiae officia laboriosam ratione.
+      </p>
+      <figure>
+          <img src="img/belgian-fluff.jpg" alt="long black hair belgian fluff dog">
+          <figcaption>Belgian Fluff Dog</figcaption>
+      </figure>
+      <!-- informational images -->
+      <figure>
+          <img src="http://placehold.it/300x300" alt="verbal description of image">
+          <figcaption>image title</figcaption>
+      </figure>
+      <!-- supplementary info  -->
+      <aside>
+          <h2>supplementary latin links</h2>
+          <ul>
+              <li><a href="#">how to learn latin</a></li>
+          </ul>
+      </aside>
+    </section>
+  </main>
+
+  <aside>
+      <h2>supplementary social media links</h2>
+      <ul>
+          <li><a href="#">twitter</a></li>
+      </ul>
+  </aside>
+
+  <footer>
+    <p>designed by me</p>
+    <address>email@colorado.edu</address>
+    <small>&copy; 2021</small>
+  </footer>
+
+</body>
+</html>
