@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.skip-link {
+  background: black;
+  color: #fff;
+  font-weight: 700;
+  padding: 4px;
+  position: absolute;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(-100%);
+}
+
+.skip-link {
+  /* Same as  before */
+  transition: transform 0.3s;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.skip-link {
+    background: black;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-200%);
+  }
+  
+  .skip-link:focus {
+    transform: translateY(-100%);
+  }
+  
+  .skip-link {
+    transition: transform 0.3s;
+  }
+
+  /* not working */
+  table {
+    background-color: blue;
+  }
+
+  table, th, td {
+    border-collapse: collapse;
+  }
+  td {
+    border-collapse: collapse;
+  }
+  td {
+    padding-right: 50px;
+  }
+
+  input:focus {
+    background: black;
+    color: white;
+  
+  }
+  input:valid {
+    border: 2px solid green;
+  }
+  
+  input:invalid {
+    border: 1px dotted red;
+  }
+  
+  label
+   {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /*will target any field that is not submit and is valid*/
+  input:not([type="submit"]):valid {
+      border-color: #3d9ca8;
+      box-shadow: 0 0 3px #3d9ca8;
+  }
+  
+  /* Hide and show list of inputRequirements when interacting with input */
+  input:not([type="submit"]) + .inputRequirements {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 1s ease-out;
+  }
+  
+  input:not([type="submit"]):hover + .inputRequirements,
+  input:not([type="submit"]):focus + .inputRequirements,
+  input:not([type="submit"]):active + .inputRequirements {
+    max-height: 1000px; 
+    transition: max-height 1s ease-in;
+  }

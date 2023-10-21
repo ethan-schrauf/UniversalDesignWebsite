@@ -1,0 +1,67 @@
+
+#intro {
+    float: left;
+    width: 70%;
+}
+
+#infobox {
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+
+#infobox img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* New section for the fashion week photo */
+#fashion-week-photo {
+    float: right;
+    width: 35%;
+    margin-left: 20px; /* Add some margin to separate it from the text */
+}
+
+#fashion-week-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add a line below h2 headings */
+h2 {
+    border-bottom: 1px solid #000; /* Change the color and style as needed */
+    padding-bottom: 5px; /* Adjust the spacing between the text and the line */
+}
+
+/* Add the .sr-only class styles */
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/* Apply Arial font to all paragraphs */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Unbold all h2 headings */
+h2 {
+    font-weight: normal;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+table, th, td {
+    border: 1px solid;
+}

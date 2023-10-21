@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.skip-link {
+    background: black;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-200%);
+  }
+  
+  .skip-link:focus {
+    transform: translateY(-100%);
+  }
+  
+  .skip-link {
+    transition: transform 0.3s;
+  }
+
+  table {
+    background-color: blue;
+  }
+
+  table, th, td {
+    border-collapse: collapse;
+  }
+  td {
+    border-collapse: collapse;
+  }
+  td {
+    padding-right: 50px;
+  }

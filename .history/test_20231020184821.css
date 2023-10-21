@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+.skip-link {
+  background: black;
+  color: #fff;
+  font-weight: 700;
+  padding: 4px;
+  position: absolute;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(-100%);
+}
+
+.skip-link {
+  /* Same as  before */
+  transition: transform 0.3s;
+}
