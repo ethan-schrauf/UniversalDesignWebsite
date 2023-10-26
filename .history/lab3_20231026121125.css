@@ -76,8 +76,7 @@ input:not([type="submit"]):active + .inputRequirements {
   transition: max-height 1s ease-in;
 } 
 
-.container,
-nav {
+.container {
   margin: 0 auto;
   max-width: 960px;
 }
