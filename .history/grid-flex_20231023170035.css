@@ -1,0 +1,17 @@
+body {
+    background: yellow;
+}
+
+/* css reset */
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    padding: .2em 0;
+}

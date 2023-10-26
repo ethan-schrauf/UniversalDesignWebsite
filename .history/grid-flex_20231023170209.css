@@ -1,0 +1,22 @@
+body {
+    background: yellow;
+}
+
+/* css reset */
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    padding: .2em 0;
+}
+
+p {
+    margin: 1.0em 0;
+    line-height: 1.8em;
+}
