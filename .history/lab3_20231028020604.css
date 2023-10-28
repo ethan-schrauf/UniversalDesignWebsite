@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.skip-link {
+  background: black;
+  color: #fff;
+  font-weight: 700;
+  padding: 4px;
+  position: absolute;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(-100%);
+}
+
+.skip-link {
+  /* Same as  before */
+  transition: transform 0.3s;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2em;
+}
+
+table {
+  border: 2px solid blue;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid blue;
+}
+td {
+  border-collapse: collapse;
+  padding-right: 50px;
+}
+
+
+input:focus {
+  background: black;
+  color: white;
+
+}
+input:valid {
+  border: 2px solid green;
+}
+
+input:invalid {
+  border: 1px dotted red;
+}
+
+label
+ {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input:not([type="submit"]):valid {
+    border-color: #3d9ca8;
+    box-shadow: 0 0 3px #3d9ca8;
+}
+
+input:not([type="submit"]) + .inputRequirements {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1s ease-out;
+}
+
+input:not([type="submit"]):hover + .inputRequirements,
+input:not([type="submit"]):focus + .inputRequirements,
+input:not([type="submit"]):active + .inputRequirements {
+  max-height: 1000px; 
+  transition: max-height 1s ease-in;
+} 
+
+.container,
+nav {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+h1 {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+
+.skip-link {
+  background: lavender;
+  color: black;
+  font-weight: 700;
+  padding: 4px;
+  position: absolute;
+  transform: translate(-200%);
+}
+
+.skip-link:focus {
+  transform: translate(0%);
+}
+
+.skip-link {
+  transition: transform 0.5s;
+}
+
+/* Add the .sr-only class styles */
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* highlight text */
+/* detailed summary */
+/* bold and italicize words you can just bold a few words */
+/* footer */
