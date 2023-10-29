@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
 
 body {
-    background: rgb(234, 244, 222);
+    background: rgb(189, 222, 147);
 }
 
 /* css reset */
@@ -39,7 +39,7 @@ footer {
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
     background: rgb(175, 222, 176);
     display: grid;
@@ -56,11 +56,11 @@ footer {
     "footy     footy     footy";
   }
 
-  header {grid-area: heady; background:rgb(239, 245, 237);}
-nav {grid-area: navvy; background:rgb(220, 246, 223);}
+  header {grid-area: heady; background:rgb(224, 247, 215);}
+nav {grid-area: navvy; background:rgb(215, 253, 232);}
 main {grid-area: mainy; background: rgb(221, 250, 224); max-height: 100%;}
 #aside1 {grid-area: aside1; background: rgb(243, 251, 209);}
-#aside2 {grid-area: aside2; background: rgb(243, 251, 209);}
+#aside2 {grid-area: aside2; background: rgb(218, 254, 245);}
 footer {grid-area: footy; background: rgb(205, 255, 252);}
 
 nav ul {
