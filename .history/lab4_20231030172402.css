@@ -47,21 +47,27 @@ footer {
     grid-template-columns:
      1fr       2fr;
     grid-template-areas:
+    /* "heady     heady     heady"
+    "navvy     navvy     navvy"
+    "aside1    mainy     aside2"
+    "aside1    mainy     aside2"
+    "aside1    mainy     aside2"
+    "footy     footy     footy"; */
     "heady     heady"
     "navvy     navvy"
-    "Park-Rules    mainy"
-    "Colorado-Wildlife    mainy"
+    "aside1    mainy"
+    "aside2    mainy"
     "footy     footy";
 
     /* "heady " */
   }
 
   header {grid-area: heady; background:rgb(239, 245, 237);}
-nav {grid-area: navvy; background:rgb(184, 248, 191);}
-main {grid-area: mainy; background: rgb(229, 250, 231); max-height: 100%;}
-#Park-Rules {grid-area: Park-Rules; background: rgb(214, 245, 238);}
-#Colorado-Wildlife {grid-area: Colorado-Wildlife; background: rgb(215, 242, 247);}
-footer {grid-area: footy; background: rgb(235, 255, 205);}
+nav {grid-area: navvy; background:rgb(138, 244, 151);}
+main {grid-area: mainy; background: rgb(221, 250, 224); max-height: 100%;}
+#aside1 {grid-area: aside1; background: rgb(243, 251, 209);}
+#aside2 {grid-area: aside2; background: rgb(243, 251, 209);}
+footer {grid-area: footy; background: rgb(205, 255, 252);}
 
 nav ul {
     display: flex;
@@ -83,7 +89,7 @@ nav ul {
       "heady heady"
       "navvy navvy"
       "mainy mainy"
-      "Park-Rules Colorado-Wildlife"
+      "aside1 aside2"
       "footy footy";
     }
     }
@@ -96,8 +102,8 @@ nav ul {
     grid-template-areas:
       "heady"
       "mainy"
-      "Park-Rules"
-      "Colorado-Wildlife"
+      "aside1"
+      "aside2"
       "navvy"
       "footy";
     }
