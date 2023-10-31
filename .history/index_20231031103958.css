@@ -96,17 +96,6 @@ body {
     margin: 0;
 }
 
-nav ul {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center; /* To center the items horizontally */
-}
-
-nav ul li {
-  list-style: none;
-  margin: 0 10px; /* Adjust this margin to create space between the links */
-}
-
 
 
 .container {
@@ -138,7 +127,7 @@ nav ul li {
 }
   #button-container {grid-area: buttons;}
 
-  nav {grid-area: navvy; background:rgb(147, 205, 252);}
+  nav {grid-area: navvy; background:rgb(126, 197, 255);}
 
 
 
@@ -205,12 +194,7 @@ nav ul li {
 
 footer {
     grid-area: footy;
-    background: rgb(205, 244, 255);
+    background: rgb(235, 255, 205);
     font-family: 'Roboto', sans-serif;
     text-align: center;
-}
-
-a {
-  text-decoration: none; /* Remove the underline */
-    font-family: 'Roboto', sans-serif;
 }

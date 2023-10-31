@@ -96,17 +96,6 @@ body {
     margin: 0;
 }
 
-nav ul {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center; /* To center the items horizontally */
-}
-
-nav ul li {
-  list-style: none;
-  margin: 0 10px; /* Adjust this margin to create space between the links */
-}
-
 
 
 .container {
