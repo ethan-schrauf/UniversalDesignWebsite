@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
+
+/* CSS reset */
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/* Your existing CSS styles... */
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    background: rgb(235, 242, 248);
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+    "heady heady"
+    "navvy navvy"
+    "mainy mainy"
+    "Photography Photography"
+    "footy footy";
+    padding-left: 20px;
+}
+
+nav {
+    grid-area: navvy; /* Corrected grid area assignment */
+    background: rgb(184, 248, 191);
+}
+
+/* Media queries and other existing styles remain unchanged */

@@ -26,8 +26,6 @@ css reset
   .nav {
     grid-area: navvy;
     background: rgb(184, 248, 191);
-    display: flex;
-    justify-content: center; /* Center the items */
   }
 
 
@@ -114,7 +112,6 @@ body {
     "footy     footy";
     padding-left: 20px;
   }
-  
 
   main {grid-area: mainy;
     background: rgb(232, 240, 245); 
@@ -147,7 +144,7 @@ body {
        1fr 1fr;
     grid-template-areas:
       "heady heady"
-      "navvy navvy"
+      "navvy"
       "mainy mainy"
       "Photography Photography"
       "footy footy";
@@ -163,7 +160,6 @@ body {
       "heady"
       "mainy"
       "Photography"
-      "navvy"
       "footy";
     }
     nav ul {

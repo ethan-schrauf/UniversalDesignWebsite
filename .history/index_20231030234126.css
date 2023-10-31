@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
 
 
-css reset
+/* css reset */
 ::before,
 ::after {
     box-sizing: border-box;
@@ -21,13 +21,6 @@ css reset
     white-space: nowrap;
     width: 1px;
   
-  }
-
-  .nav {
-    grid-area: navvy;
-    background: rgb(184, 248, 191);
-    display: flex;
-    justify-content: center; /* Center the items */
   }
 
 
@@ -108,13 +101,11 @@ body {
      1fr       2fr;
     grid-template-areas:
     "heady     heady"
-    "navvy navvy"
     "buttons   buttons"
     "mainy     Photography"
     "footy     footy";
     padding-left: 20px;
   }
-  
 
   main {grid-area: mainy;
     background: rgb(232, 240, 245); 
@@ -147,7 +138,7 @@ body {
        1fr 1fr;
     grid-template-areas:
       "heady heady"
-      "navvy navvy"
+      "navvy"
       "mainy mainy"
       "Photography Photography"
       "footy footy";
@@ -163,7 +154,6 @@ body {
       "heady"
       "mainy"
       "Photography"
-      "navvy"
       "footy";
     }
     nav ul {

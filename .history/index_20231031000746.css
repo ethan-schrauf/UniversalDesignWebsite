@@ -1,3 +1,110 @@
+/* ::before,
+::after 
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap'); 
+
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "heady heady"
+        "navvy navvy"
+        "mainy Photography"
+        "footy footy";
+    padding-left: 20px;
+}
+
+header {
+    grid-area: heady;
+    text-align: center;
+    background-color: rgb(191, 241, 253);
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.navvy {
+    grid-area: navvy;
+    background: rgb(184, 248, 191);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column; 
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    display: block;
+}
+
+
+main {
+    grid-area: mainy;
+    background: rgb(232, 240, 245);
+    max-height: 100%;
+    padding: 20px;
+}
+
+
+#Photography {
+    grid-area: Photography;
+    background: rgb(214, 233, 245);
+    padding: 20px;
+}
+
+
+footer {
+    grid-area: footy;
+    background: rgb(235, 255, 205);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}   */
+
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
 
@@ -21,13 +128,6 @@ css reset
     white-space: nowrap;
     width: 1px;
   
-  }
-
-  .nav {
-    grid-area: navvy;
-    background: rgb(184, 248, 191);
-    display: flex;
-    justify-content: center; /* Center the items */
   }
 
 
@@ -108,13 +208,11 @@ body {
      1fr       2fr;
     grid-template-areas:
     "heady     heady"
-    "navvy navvy"
     "buttons   buttons"
     "mainy     Photography"
     "footy     footy";
     padding-left: 20px;
   }
-  
 
   main {grid-area: mainy;
     background: rgb(232, 240, 245); 
@@ -147,7 +245,7 @@ body {
        1fr 1fr;
     grid-template-areas:
       "heady heady"
-      "navvy navvy"
+      "navvy"
       "mainy mainy"
       "Photography Photography"
       "footy footy";
@@ -163,7 +261,6 @@ body {
       "heady"
       "mainy"
       "Photography"
-      "navvy"
       "footy";
     }
     nav ul {

@@ -114,7 +114,10 @@ body {
     "footy     footy";
     padding-left: 20px;
   }
-  
+  nav ul li a {
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+}
 
   main {grid-area: mainy;
     background: rgb(232, 240, 245); 

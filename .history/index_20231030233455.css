@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
 
 
-css reset
+/* css reset */
 ::before,
 ::after {
     box-sizing: border-box;
@@ -21,13 +21,6 @@ css reset
     white-space: nowrap;
     width: 1px;
   
-  }
-
-  .nav {
-    grid-area: navvy;
-    background: rgb(184, 248, 191);
-    display: flex;
-    justify-content: center; /* Center the items */
   }
 
 
@@ -108,25 +101,19 @@ body {
      1fr       2fr;
     grid-template-areas:
     "heady     heady"
-    "navvy navvy"
     "buttons   buttons"
-    "mainy     Photography"
+    "Photography    mainy"
     "footy     footy";
     padding-left: 20px;
   }
-  
 
   main {grid-area: mainy;
     background: rgb(232, 240, 245); 
     max-height: 100%;
-    padding: 20px;
+    padding-left: 200px;
 }
-  #Photography {grid-area: Photography; background: rgb(214, 233, 245);
-    padding: 20px;
-}
-  #button-container {grid-area: buttons;}
-
-  nav {grid-area: navvy; background:rgb(184, 248, 191);}
+  #Photography {grid-area: Photography; background: rgb(214, 233, 245);}
+  .button-container {grid-area: buttons;}
 
 
 
@@ -147,7 +134,7 @@ body {
        1fr 1fr;
     grid-template-areas:
       "heady heady"
-      "navvy navvy"
+      "buttons buttons"
       "mainy mainy"
       "Photography Photography"
       "footy footy";
@@ -163,7 +150,6 @@ body {
       "heady"
       "mainy"
       "Photography"
-      "navvy"
       "footy";
     }
     nav ul {
@@ -177,18 +163,6 @@ body {
       background: white;
     
     }
-
-    .sr-only {
-        border: 0;
-        clip: rect(0, 0, 0, 0);
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
-      }
 }
 
 footer {
