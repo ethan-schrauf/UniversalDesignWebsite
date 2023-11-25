@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Why Accessibility Matters</title>
+  <link href="how.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+<div class="container">
+  <header>
+    <h1>The Importance of Accessible Web Design</h1>
+  </header>
+  <nav>
+    <h2 class="sr-only">Main Navigation</h2>
+    <ul>
+      <li><a href="why.html">Why It Matters</a></li>
+      <li><a href="what.html">What It Looks Like</a></li>
+      <li><a href="how.html">How To Do It</a></li>
+    </ul>
+  </nav>
+  <main id="main-content" class="mainy">
+    <section>
+      <h2 id="How To Do It">How To Do It</h2>
+      <p>Several experts emphasize that Universal Design should be approached as a design philosophy rather than a rigid checklist or a set of predefined solutions, measurements, or products. On this page, we aim to establish a step-by-step method for achieving Universal Design on the web. To initiate this process, we will explore fundamental design principles outlined by cognitive scientists and design authorities. One key influence in this domain is Donald Norman, whose significant impact on design practices is evident in his widely acclaimed work, "The Design of Everyday Things" (1988). This page will delve into Norman's design concepts, providing a shared and adaptable language for discussing design principles in both physical and virtual contexts.</p>
+      <img src="images/norman.jpg.webp" alt="Norman's Seven Concepts of Design: Constraints, discoverability, feedback, conceptual model, affordances, signifiers, mappings, constraints."  style="width: 600px; height: auto;">
+      <h2>Percieved Affordance</h2>
+      <p>Although Norman did not coin the term or originate the idea of "affordance," he is acknowledged for introducing the concept of "perceived affordance," which pertains to how users interpret and perceive the function of a device. This distinction is subtle but crucial in effective design, where the affordance should not only align with the intended function but also be clearly visible to the user.</p>
+      <p>In well-designed instances, especially for simple objects like a pencil, hammer, or scissors, we are often unaware of the cues a device provides, indicating sound design. If we find ourselves having to consciously think about how to operate a device, it typically means that its "perceived affordance" is not readily apparent to the user, or the device's affordance does not align with its function. This concept of affordance extends to electronic devices and computer interfaces, and throughout this chapter, we will explore how both physical objects and web pages can either accurately convey cues for operation or mislead the user.</p>
+      <p>In later editions of "The Design of Everyday Things" (DOET), Norman discusses how readers have shared numerous examples of "Norman Doors" or "Norman devices." These refer to doors or devices whose affordances convey incorrect cues for operation. For instance, a door handle suggesting pulling when pushing is required, or a handle designed for pulling with a shape that signals pushing due to its wide, flat design. The images below illustrate examples of door handles with different affordances. Can you identify any instances of "Norman doors" where handles provide misleading information to the user?</p>
+      <img src="images/door-handle-with-cartoon-guide.png" alt="The door handle shown at left (fig. 1) affords pulling. The drawing above the handle provides a secondary cue to pull."  style="width: 200px; height: auto;">
+
+      <h2>Constraints</h2>
+      <p>Constraints serve to restrict user actions, aiming to prevent errors and the misuse of a device. Unlike affordances, which guide users toward specific operations, constraints limit a system's choices to avoid errors, protect the device from damage, and prevent harm to the user or others. By establishing boundaries, constraints direct users toward the correct operation or usage of a system. Using examples from the automotive context, constraints include features such as the inability to remove a key from a car ignition until the engine is turned off, the incapability of shifting the transmission into reverse while the car is in forward motion, and the audible chime that sounds when attempting to exit the car with the key still in the ignition.</p>
+      <img src="images/car-in-ignition.jpeg" alt="Car keys stuck in the ignition" style="width: 300px; height: auto;">
+
+      <h2>Visibility and Feedback</h2>
+      <p>Norman emphasizes that visible implementation of physical constraints is crucial to dissuade incorrect operations, as seen in a gas station credit card device with a diagram preventing incorrect card insertion. Visibility extends to hiding inappropriate options, as observed in computer software where unavailable menu options and grayed-out non-focused windows align with the current system state. In effective design, balancing visibility and invisibility is achieved through hierarchical menu systems and organized information, avoiding overwhelming users with excessive options. The concept of "context sensitivity," akin to "progressive disclosure" in web design, involves revealing or hiding controls based on the user's context within the system. Additionally, presenting basic operations initially with the option to unveil more complex features upon user request, such as Google's "advanced search," creates a simpler yet flexible interface catering to various user levels.</p>
+      <img src="images/soundwaves.png" alt="Headphones with soundwaves in the middle"  style="width: 300px; height: auto;">
+
+      <h2>Mapping</h2>
+      <p>The final design principle discussed in this chapter is mapping, which involves presenting controls that reflect the operation to be performed or, through positioning or proximity, indicate the device or component associated with the control. A straightforward example of this is the placement of light switches near the lights they operate; we instinctively associate the closest switch with the corresponding light. Figure 6 illustrates a less clear scenario with stovetop controls. While the middle burner's control is evident due to its central location, the two burners on the left have knobs placed parallel to them, making it unclear which knob corresponds to the front or back burner based on proximity alone. While some stoves use diagrams as semantic constraints to indicate knob-burner associations, others, as shown in Figure 8, rely on the physical placement of knobs to mirror the arrangement of burners and guide the proper association through positioning.</p>
+      <img src="images/stove.png"  style="width: 200px; height: auto;">
+    </section>
+  </main>
+  <footer>
+    <small> Designed by Ethan Schrauf</small>
+  </footer>
+
+</div> <!-- end container -->
+</body>
+</html>
