@@ -19,10 +19,7 @@ h3 {
 }
 
 iframe {
-  margin: auto;
-  display: block;
-  width: 700px;
-  height: 500px;
+  padding: auto;
 }
 
 h2 {
@@ -53,7 +50,7 @@ footer {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     /* background: rgb(243, 251, 209); */
     display: grid;
@@ -89,7 +86,7 @@ nav ul {
     
     @media screen
       and (min-width: 701px)
-      and (max-width: 700)  {
+      and (max-width: 1000px)  {
     .container {
     grid-template-columns:
        1fr 1fr;
@@ -168,12 +165,11 @@ nav ul {
     border-collapse: collapse;
     border: 1px solid rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
-    text-align: left;
+    text-align: center;
   }
   td {
     border-collapse: collapse;
     padding-right: 50px;
-    padding-left: 10px;
   }
 
   .skip-link {

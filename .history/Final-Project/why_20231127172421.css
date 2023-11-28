@@ -18,6 +18,10 @@ h3 {
     padding: .2em 0;
 }
 
+img {
+  width: 1000px;
+}
+
 iframe {
   margin: auto;
   display: block;
@@ -168,12 +172,11 @@ nav ul {
     border-collapse: collapse;
     border: 1px solid rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
-    text-align: left;
+    text-align: center;
   }
   td {
     border-collapse: collapse;
     padding-right: 50px;
-    padding-left: 10px;
   }
 
   .skip-link {

@@ -13,16 +13,14 @@ body {
     margin: 0;
 }
 
+img {
+  width: 400 vw;
+
+}
+
 h1,
 h3 {
     padding: .2em 0;
-}
-
-iframe {
-  margin: auto;
-  display: block;
-  width: 700px;
-  height: 500px;
 }
 
 h2 {
@@ -53,19 +51,19 @@ footer {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     /* background: rgb(243, 251, 209); */
     display: grid;
     width: 100vw;
     height: 100vh;
     grid-template-columns:
-     1fr       2fr;
+     1fr       1fr;
     grid-template-areas:
     "heady     heady"
     "navvy     navvy"
     "mainy    mainy"
-    "mainy     mainy"
+    "mainy    mainy"
     "footy     footy";
 
   }
@@ -89,7 +87,7 @@ nav ul {
     
     @media screen
       and (min-width: 701px)
-      and (max-width: 700)  {
+      and (max-width: 701px)  {
     .container {
     grid-template-columns:
        1fr 1fr;
@@ -128,6 +126,14 @@ nav ul {
     p {
         font-family: 'Roboto', sans-serif;
     }
+
+    h3,
+    h4,
+    footer {
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      color: #223f47;
+    }
    
     h2,
     h1 {
@@ -156,49 +162,21 @@ nav ul {
       font-family: 'Roboto', sans-serif;
     }
 
-  iframe {
-    display:block;
-  }
-
-  table {
-    border: 2px solid rgb(0, 0, 0);
-  }
-  
-  table, th, td {
-    border-collapse: collapse;
-    border: 1px solid rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-  }
-  td {
-    border-collapse: collapse;
-    padding-right: 50px;
-    padding-left: 10px;
-  }
-
-  .skip-link {
-    background: lavender;
-    color: black;
-    font-weight: 700;
-    padding: 4px;
-    position: absolute;
-    transform: translate(-200%);
-    text-decoration: none; /* Remove underline */
-    z-index: 9999; /* Ensure it's on top */
-  }
-  
-  .skip-link:focus {
-    transform: translate(0%);
-  }
-  
-  .skip-link {
-    transition: transform 0.5s;
-  }
-
-  footer {
-    font-family: "Roboto", sans-serif;
-  }
-  img {
-    margin: auto;
-    display: block;
-  }
+    .skip-link {
+        background: lavender;
+        color: black;
+        font-weight: 700;
+        padding: 4px;
+        position: absolute;
+        transform: translate(-200%);
+        text-decoration: none; /* Remove underline */
+        z-index: 9999; /* Ensure it's on top */
+      }
+      
+      .skip-link:focus {
+        transform: translate(0%);
+      }
+      
+      .skip-link {
+        transition: transform 0.5s;
+      }
