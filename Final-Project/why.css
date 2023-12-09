@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
 
 body {
-    background: rgb(222, 243, 244);
+    background: rgb(231, 231, 231);
 }
 
 /* css reset */
@@ -70,12 +70,10 @@ footer {
 
   }
 
-  header {grid-area: heady; background:rgb(237, 245, 244);}
-nav {grid-area: navvy; background:rgb(184, 224, 248);}
-main {grid-area: mainy; background: rgb(229, 250, 250); max-height: 100%;}
-#Park-Rules {grid-area: Park-Rules; background: rgb(214, 236, 245);}
-#Colorado-Wildlife {grid-area: Colorado-Wildlife; background: rgb(215, 241, 247);}
-footer {grid-area: footy; background: rgb(205, 238, 255);}
+  header {grid-area: heady; background:rgb(0, 64, 128);}
+nav {grid-area: navvy; background:rgb(244, 244, 244);}
+main {grid-area: mainy; background: rgb(255, 255, 255); max-height: 100%;}
+footer {grid-area: footy; background: rgb(51, 51, 51);}
 
 nav ul {
     display: flex;
@@ -197,8 +195,25 @@ nav ul {
 
   footer {
     font-family: "Roboto", sans-serif;
+    color: #FFFFFF
   }
   img {
     margin: auto;
     display: block;
+  }
+
+  header {
+    color: #FFFFFF;
+  }
+  h1 {
+    color: inherit;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333333
+  }
+
+  nav a:hover {
+    text-decoration: underline;
   }
